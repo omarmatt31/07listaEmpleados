@@ -1,4 +1,4 @@
-import { ListGroupItem } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
 import EmpleadoAvatar from "./EmpleadoAvatar";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 const EmpleadoRow = ({empleado}) => {
     return (
         <ListGroup.Item>
-            <EmpleadoAvatar></EmpleadoAvatar>
             <Container>
                 <Row>
                     <Col md={3}><EmpleadoAvatar imagen={empleado.pic}></EmpleadoAvatar></Col>

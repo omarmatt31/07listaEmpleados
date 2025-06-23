@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import EmpleadoList from "./components/EmpleadoAvatar";
+import EmpleadoList from "./components/EmpleadoList";
 
 function App() {
   let empleados = [
