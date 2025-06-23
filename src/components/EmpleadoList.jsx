@@ -1,4 +1,5 @@
 import { ListGroup } from "react-bootstrap";
+import EmpleadoRow from "./EmpleadoRow";
 
 const EmpleadoList = ({empleados}) => {
     return (

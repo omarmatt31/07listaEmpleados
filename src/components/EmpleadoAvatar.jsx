@@ -1,8 +1,9 @@
+import { ListGroup } from "react-bootstrap";
 
 const EmpleadoAvatar = (imagen) => {
     return (
         <div className="rounded-5">
-            <img src={imagen} alt="Avatar empleado" />
+            <img src="" alt="Avatar empleado" />
         </div>
 
     );
