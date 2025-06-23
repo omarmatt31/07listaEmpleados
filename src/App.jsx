@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import EmpleadoAvatar from "./components/EmpleadoAvatar";
+import EmpleadoList from "./components/EmpleadoAvatar";
 
 function App() {
   let empleados = [
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <EmpleadoAvatar></EmpleadoAvatar>
+      <EmpleadoList empleados={empleados}></EmpleadoList>
     </>
   )
 }
