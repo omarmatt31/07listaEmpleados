@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import EmpleadoAvatar from "./components/EmpleadoAvatar";
 
 function App() {
 
