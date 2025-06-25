@@ -15,8 +15,15 @@ function App() {
 ]
   return (
     <>
-      <EmpleadoList empleados={empleados}></EmpleadoList>
+      <main className="container my-4">
+        <EmpleadoList empleados={empleados}></EmpleadoList>
+      </main>
+      <footer className="bg-dark text-light text-center py-3">
+        <p>💻 Omar Mattos 💻</p>
+        <p>&copy; Todos los derechos reservados</p>
+      </footer>
     </>
+    
   )
 }
 

@@ -8,11 +8,11 @@ const EmpleadoRow = ({empleado}) => {
     return (
         <ListGroup.Item>
             <Container>
-                <Row>
-                    <Col md={3}><EmpleadoAvatar imagen={empleado.pic}></EmpleadoAvatar></Col>
-                    <Col md={9}>
-                    <div><p>{empleado.fullName}</p></div>
-                    <div><p>{empleado.title}</p><p>{empleado.department}</p></div>
+                <Row className="d-flex align-items-center">
+                    <Col md={4}><EmpleadoAvatar imagen={empleado.pic}></EmpleadoAvatar></Col>
+                    <Col md={8}>
+                        <div><p className="fw-bold fs-5">{empleado.fullName}</p></div>
+                        <div className="d-flex"><p className="me-3">{empleado.title}</p><p className="bg-info px-2 rounded-1">{empleado.department}</p></div>
                     </Col>
                 </Row>
             </Container>
